@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+  
+ 
+  }
+
+
+  .container{
+    border: 5px solid rgb(206, 120, 206);
+    width: 620px;
+    height: 550px;
+    margin-left: 300px;
+    background: rgb(206, 120, 206);;
+    box-shadow: 3px 3px 3px 3px rgb(122, 30, 122);;
+    margin-top: 15vh;
+  }
+  
+ 
+  h1{
+    text-align: center;
+    font-weight: 800;
+    font-size: 35px;
+    margin-right: 70px;
+    text-shadow: 3px 3px 3px  black;
+  }
+  
+  
+  
+  .one{
+    color: #fff;
+    text-shadow: 2px 2px  white;
+  }
+    
+
+  input[type=text] {
+    padding: 20px;
+    border-color: black;
+    width: 300px;
+    margin-left: 23%;
+   margin-bottom: -5vh;
+   }
+    
+   
+    input {
+      margin: 0;
+      border: none;
+      border-radius: 0;
+      width: 25%;
+      padding: 10px;
+      float: left;
+      font-size: 14px;
+    }
+    
+  
+  .Btn{
+   border: 1px solid black;
+   width: 100px;
+   height: 120px;
+   padding: 10px;
+  margin-left: 60vh;
+  color: #fff;
+  
+  
+  
+  }
+  
+  
+    .Btn:hover {
+      color:black;
+      background: plum;
+    }
+  
+  
+
+  ul{
+   margin: 0%;
+   padding: 0;
+
+  }
+
+
+  
+  ul li {
+    position: relative;
+    background: rgb(192, 123, 192);
+    font-size:19px ;
+    padding: 10px;
+    top:40px;
+   list-style-type: none;
+   }
+
+
+
+  ul li:hover {
+    background: purple;
+  }
+  
+
+  ul li.checked {
+    color: black;
+    text-decoration:none;
+  }
+  
+  
+
+  ul li.checked::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    height: 14px;
+    width: 7px;
+    border-style: solid;
+    border-width: 0 2px 2px 0;
+    visibility: hidden;
+   }
+  
+
+
+  .list{
+    margin-left: 30%;
+    position: relative;
+    right: 145px;
+  }
+
+
+  .close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px 15px 10px 15px;
+  }
+  
+  .close:hover {
+  color:white
+  }
+  
+
+  .todo {
+    padding: 25px;
+    text-align: center;
+       
+     }
+     
+
+
+  ul li:nth-child(odd) {
+    background: #f9f9f9;
+    width: 550px;
+    margin-right: 10vh;
+  }
+
+
